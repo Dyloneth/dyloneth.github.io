@@ -61,13 +61,21 @@ header, footer {
 }
 
 @font-face {
-  font-family: 'playfair';
-  src: url('PlayfairDisplay-Medium.eot');
-  src: url('PlayfairDisplay-Medium.eot?#iefix') format('embedded-opentype'),
-      url('PlayfairDisplay-Medium.woff2') format('woff2'),
-      url('PlayfairDisplay-Medium.woff') format('woff'),
-      url('PlayfairDisplay-Medium.ttf') format('truetype');
-  font-weight: 500;
+  font-family: 'lora';
+  src: url('Lora-Regular.eot');
+  src: url('Lora-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Lora-Regular.woff2') format('woff2'),
+      url('Lora-Regular.woff') format('woff'),
+      url('Lora-Regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+html {
+  font-family: lora, serif;
+}
+
+h1, h2 {
+  font-family: inter, sans-serif;
 }
