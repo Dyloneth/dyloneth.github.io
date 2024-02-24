@@ -102,6 +102,33 @@ p {
   letter-spacing: 0.5px;
 }
 
-section h2 + p {
+section h2+p {
   text-indent: 20px;
+}
+
+/* Links */
+
+a:link,
+a:visited {
+  color: brown
+}
+
+a:focus,
+a:hover {
+  /*Since the links are already underlined, just set the decoration to none*/
+  text-decoration: none;
+}
+
+a:active {
+  text-shadow: 1px 1px 2px
+}
+
+a[href*="http"] {
+  padding-right: 10px;
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 10px 10px
+}
+
+a {
+  outline: none;
 }
