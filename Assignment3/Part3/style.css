@@ -31,13 +31,18 @@ footer {
   clear: both;
 }
 
-header, section, aside, nav, footer {
+header,
+section,
+aside,
+nav,
+footer {
   padding: 20px;
 }
 
 /* header and footer */
 
-header, footer {
+header,
+footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
@@ -52,9 +57,9 @@ header, footer {
   font-family: 'inter';
   src: url('Inter-Bold.eot');
   src: url('Inter-Bold.eot?#iefix') format('embedded-opentype'),
-      url('Inter-Bold.woff2') format('woff2'),
-      url('Inter-Bold.woff') format('woff'),
-      url('Inter-Bold.ttf') format('truetype');
+    url('Inter-Bold.woff2') format('woff2'),
+    url('Inter-Bold.woff') format('woff'),
+    url('Inter-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -64,9 +69,9 @@ header, footer {
   font-family: 'lora';
   src: url('Lora-Regular.eot');
   src: url('Lora-Regular.eot?#iefix') format('embedded-opentype'),
-      url('Lora-Regular.woff2') format('woff2'),
-      url('Lora-Regular.woff') format('woff'),
-      url('Lora-Regular.ttf') format('truetype');
+    url('Lora-Regular.woff2') format('woff2'),
+    url('Lora-Regular.woff') format('woff'),
+    url('Lora-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -74,8 +79,29 @@ header, footer {
 
 html {
   font-family: lora, serif;
+  font-size: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: inter, sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+section h2 + p {
+  text-indent: 20px;
 }
