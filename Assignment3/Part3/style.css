@@ -132,3 +132,42 @@ a[href*="http"] {
 a {
   outline: none;
 }
+
+/* Lists */
+ul,
+ol {
+  margin: 1.5rem;
+  list-style-type: disc;
+}
+
+/* Navigation Menu */
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 3rem;
+}
+
+nav li a {
+  border: 1.5px solid darkred;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 2.5;
+  text-align: center;
+}
+
+nav li a:focus,
+nav li a:hover {
+  color: white;
+  background: darksalmon;
+}
+
+nav li a:active {
+  color: white;
+  background: darkred;
+}
